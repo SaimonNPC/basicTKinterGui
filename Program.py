@@ -5,12 +5,12 @@ root = Tk()           #เรียกโมดูล Tk เพื่อสร�
 root.title("My GUI")
 
 #กำหนดขนาดหน้าต่างหน้าจอ ต้องกำหนดก่อน mainloop
-root.geometry("500x200")  # +คือกำหนดพิกัดตำแหน่งแสดงหน้าต่างในหน้าจอ ในแกน X,Y
+root.geometry("900x200")  # +คือกำหนดพิกัดตำแหน่งแสดงหน้าต่างในหน้าจอ ในแกน X,Y
 
 
 #สร้างหน้าจอ 2 หลังกดปุ่มสั่ง openWindow2
 window2 = Tk()
-window2.title("ทักทาย blink")
+window2.title("ทักทาย blink ว่ายังงายย")
 window2.geometry("500x200")
     
 # ใส่ข้อความในหน้าจอ
@@ -47,6 +47,7 @@ def showMessage2():
 
 #ใส้ปุ่ม 
 btn1 = Button(text="BORN PINK",fg="pink",bg="white",command=showMessage).pack()
+btn11 = Button(text="BORN BORN",fg="pink",bg="white").pack()
 
 #btn2 = Button(root,text="เปิดรายงาน",fg="pink",bg="white",command=openWindow2).pack()
 
